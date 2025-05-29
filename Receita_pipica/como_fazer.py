@@ -23,7 +23,7 @@ if possui:
     print("Depois de esquentar um pouco, jogue o milho.")
     print("Assim que a primeira pipoca estourar, coloque em fogo baixo e feche a tampa.")
 
-    continuidade = input("Está conseguindo seguir o passo a passo? [S]im ou [N]ão:")
+    continuidade = input("Está conseguindo seguir o passo a passo? [S]im ou [N]ão: ")
     continuidade = continuidade.lower()
 
     if continuidade == "sim" or continuidade == "s":
