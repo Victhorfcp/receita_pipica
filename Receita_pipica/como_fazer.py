@@ -4,7 +4,6 @@ print("Iremos precisar de: óleo, milho de pipoca, chocolate branco e leite ninh
 print()
 
 possui = input(f"Você possui todos os ingredientes? [S]im ou [N]ão: ")
-
 possui = possui.lower()
 
 if possui:
@@ -14,9 +13,6 @@ if possui:
     elif possui == "não" or possui == "n":
         print("Precisamos dos igredientes para começar. ")
         exit()
-    else:
-        print("Preciso da sua resposta para continuarmos. ")
-
 
     print()
     print("Primeiro despeje o óleo na panela")
@@ -53,6 +49,8 @@ if possui:
     print("Após finalizar esse processo, despeje o leite ninho sobre a pipoca e mexa novamente.")
 
     deu_certo = input("Deu certo? [S]im ou [N]ão: ")
+    deu_certo = deu_certo.lower()
+    
     if deu_certo == "sim" or deu_certo == "s":
         print("Que bom, aproveite sua pipoca.")
     else:
